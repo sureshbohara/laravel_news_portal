@@ -1,0 +1,2 @@
+[27-Sep-2022 13:15:05 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.3.33. in /home2/best1ofk/taraikhabar.com/vendor/composer/platform_check.php on line 24
+[27-Sep-2022 13:16:18 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.3.33. in /home2/best1ofk/taraikhabar.com/vendor/composer/platform_check.php on line 24

@@ -1,0 +1,728 @@
+
+/* Header Navbar */
+	.header-sticky.sticky-bar.sticky .main-menu ul>li>a {
+	    padding: 18px 8px!important;
+	}
+
+	.header-sticky.sticky-bar.sticky .sticky-logo{
+	    display: none !important;
+	}
+
+	.header-area .header-bottom {
+	    border-top: none;
+	}
+
+
+	@media only screen and (min-width: 992px){
+		.main-header .main-menu ul li a {
+		    padding: 18px 10px !important;
+		}
+	}
+
+	.header-area .header-bottom {
+		background: #0e5dae;
+	}
+
+	.main-header .main-menu ul li a {
+		color: white;
+		font-weight: bold;
+		font-size: 18px;
+	}
+
+
+	.slicknav_nav {
+	    background: rgb(14, 93, 174);
+	}
+	.slicknav_nav a {
+	    font-size: 15px;
+	    font-weight: bold;
+	    color: #fff;
+	}
+
+	.logo-lg-width{
+		width: 100%;
+	}
+
+	
+   .logo-ft-width{
+        width: 70%;
+        margin-top: 17px;
+    }
+	.logo-sm-width{
+		width: 85%;
+	}
+
+/* Index POST */
+	.post_image_slider_type_1{
+		height: 431.67px;
+		object-fit: cover;
+	}
+	@media only screen and (max-width: 992px){
+		.post_image_slider_type_1{
+		    height: 338.33px;
+		}
+	}
+
+
+    .right_post_image {
+        width: 134px;
+        height: 100px;
+        max-width: 134px;
+        max-height: 134px;
+        object-fit: cover;
+        margin-bottom: 0
+   }
+
+	.latest_down_post_image{
+		width: 183.33px;
+		height: 122.22px;
+		object-fit: cover;
+	}
+
+	.home_multi_slide_image{
+		width: 100%;
+		height: 269.84px;
+		object-fit: cover;
+	}
+
+
+/* Category Page */
+	.blog_right_sidebar .single_sidebar_widget {
+	    background: #0b529a20;
+	    border-radius: 5px;
+	    padding: 20px;
+	}
+	article.blog_item .blog_details {
+	    background: whitesmoke;
+	    height: 90%;
+	}
+
+
+/* Sidebar */
+	.sidebar_post_icon{
+		width: 90px;a
+		height: 60px;
+		object-fit: cover;
+	}
+
+/* Post page */
+	.single-post{
+		padding: 20px;
+	    background: rgb(0 123 255 / 14%);
+	    border-radius: 5px;
+	}
+
+	.single-post-title{
+		margin-top: 15px;
+		margin-bottom: 20px;
+	}
+    section.blog_area.single-post-area.section-padding pre {
+        display: block;
+        color: #333;
+        line-height: 1.625em;
+        word-break: normal;
+        -ms-word-wrap: break-word;
+        word-wrap: break-word;
+    }
+
+	.single-post-area .blog_details p {
+	    font-size: 20px;
+        font-family: "Mukta";
+        font-weight: 400;
+        font-style: normal;
+        line-height: 1.7;
+	}
+	.single-post-share{
+		margin-top: 20px;
+	}
+	.single-post-reaction{
+		margin-top: 20px;
+    	background: #dbecff;
+    	border-radius: 5px;
+	}
+	.single-post-reaction{
+		text-align: center;
+		padding-top: 5px;
+	}
+
+
+
+/* Footer */
+	.footer-area {
+		background: #0b529a;
+	}
+	.footer-padding {
+	    padding-top: 1rem !important;
+	}
+	.footer-bottom-area .footer-border {
+	    padding: 0px 0px 0px;
+	}
+
+	.footer-area .footer-logo{
+		margin-bottom: 0;
+	}
+	.footer-area .footer-title p{
+		margin-bottom: 0;
+	}
+	.ft-mt{
+		margin-top: 0px;
+	}
+	@media only screen and (max-width: 786px){
+		.footer-area{
+		    text-align: center;
+		}
+		.footer_logo_div{
+			display: none;
+		}
+	}
+	.footer_left_col{
+		display: flex;
+	}
+	.footer_logo_div{
+		width: 250px;
+		margin-right: 10px;
+	}
+	.footer_logo{
+		width: 100%;
+	}
+    .footer-area .footer-pera p {
+        margin-bottom: 20px;
+    }
+
+/*cSS EDITED BY gOVIND BHAI */
+/*Text Heading By Govind */
+	.weekly2-news-area .weekly2-wrapper .weekly2-single .weekly2-caption h4 {
+	    background: #ffffff;
+	    position: relative;
+	    margin: .5rem;
+	    text-align: justify;
+	  /*  border: inset;*/
+	    padding: 0 .4rem;
+	}
+
+/*Post Sidebar */
+	.blog_right_sidebar .widget_title {
+	    font-family: "Mukta";
+	    font-weight: 500;
+	    font-style: normal;
+	    font-size: 21px;
+	    line-height: 1.3;
+	    color: #0171bb;
+	    text-align: center;
+	}
+
+	.blog_right_sidebar .widget_title:after {
+		content: "";
+	    width: 100%;
+	    background: #da251d;
+	    display: block;
+	    position: relative;
+	    bottom: -2px;
+	    padding-top: 2px;
+	}
+
+	
+/*Category Paragraph */
+article.blog_item .blog_details p {
+    font-size: 1rem;
+}
+
+/*Top Trending News Heading*/
+.trending-area.fix .trend-top-cap h2{
+	text-align: center;
+    font-size: 50px;
+    line-height: 1.4;
+    font-family: mukta,sans-serif;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 0;
+
+}
+
+.trending-area.fix .trend-top-cap h2 a:hover{
+	color:#fc3f00;
+}
+
+.trending-area.fix .post__info.flex-box {
+    display: flex;
+    align-items: center;
+	margin-left: 30%;
+}
+
+.trending-area.fix .post__info.flex-box .post__time {
+    margin-left: 5%;
+}
+
+.trending-area.fix .post__info.flex-box .author__wrap img {
+    height: 2rem;
+    width: 2rem;
+    object-fit: cover;
+}
+@media (max-width: 767px){
+	.trending-area.fix .trend-top-cap h2{
+		text-align: center;
+    	font-size: 2rem;
+	}
+	.trending-area.fix .post__info.flex-box {
+		margin-left: 0;
+	}
+}
+@media (max-width: 480px){
+	.trending-area.fix .trend-top-cap h2{
+		text-align: justify;
+		font-size: revert;
+		
+	}
+	.trending-area.fix .post__info.flex-box {
+		font-size: smaller;
+		margin-left: 0;
+	}
+	
+}
+/* Post page Img  */
+section.blog_area.single-post-area.section-padding .single-post img.img-fluid {
+    width: 100%;
+    height: 23rem;
+    object-fit: cover;
+}
+@media (max-width: 767px){
+	section.blog_area.single-post-area.section-padding .single-post img.img-fluid {
+		width: 100%;
+		height: 15rem;
+		object-fit: cover;
+	}
+}
+
+section.blog_area.single-post-area.section-padding .subheading {
+	text-align: center;
+	text-decoration: underline;
+}
+section.blog_area.single-post-area.section-padding .row .col-lg-8.posts-list .subheading h4.card-title {
+    font-size: xx-large;
+    margin: 1rem 0;
+}
+
+section.blog_area.single-post-area.section-padding .row .col-lg-8.posts-list .title .col-lg-4 {
+    text-align: center;
+    min-height: 125px;
+    padding: 22px 1rem;
+    border-radius: 0 10% 10% 10%;
+    padding: 14px;
+    background-color: #fff;
+    box-shadow: rgb(0 0 0 / 10%) 0 0 18px;
+}
+
+section.blog_area.single-post-area.section-padding .row .col-lg-8.posts-list .title .col-lg-4 img.card-img {
+    height: 9rem;
+    object-fit: cover;
+}
+
+/* Css Index News Post   */
+
+    /* Manoranjannews News Css Start */
+    
+    section#manoranjannews {
+        margin-left: 6rem;
+        margin-right: 6rem;
+        margin-top: 0;
+    }
+
+    section#manoranjannews .row .col-lg-8 .fcard-title, section#manoranjannews .row .col-lg-4 .fcard-title {
+    padding: 10px 0;
+    color: #1e458a;
+    margin-bottom: 15px;
+    font-size: 24px;
+    position: relative;
+    font-weight: 600;
+    }
+
+    section#manoranjannews .row .col-lg-8 .fcard-title:before, section#manoranjannews .row .col-lg-4 .fcard-title:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 80px;
+    height: 5px;
+    background: #0C0E68;
+    z-index: 1;
+    }
+
+    section#manoranjannews .row .col-lg-8 .fcard-title:after, section#manoranjannews .row .col-lg-4 .fcard-title:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: #ccc;
+    }
+
+
+    section#manoranjannews .row .col-lg-8 .row .col-lg-7 img.d-block.w-100 {
+    height: 31rem;
+    width: 100%;
+    -o-object-fit: cover;
+        object-fit: cover;
+    -webkit-filter: brightness(0.4);
+            filter: brightness(0.4);
+    }
+
+    section#manoranjannews .row .col-lg-8 .row .col-lg-7 .card-img-overlay h3.card-title {
+    color: #fff;
+    font-weight: 800;
+    }
+
+    section#manoranjannews .row .col-lg-8 .row .col-lg-7 .card-img-overlay span.posted-on {
+    color: #ffd400;
+    }
+
+    section#manoranjannews .row .col-lg-8 .row .col-lg-5 .img-fluid.rounded-start {
+    height: 14.8rem;
+    width: 100%;
+    -o-object-fit: cover;
+        object-fit: cover;
+    -webkit-filter: brightness(0.4);
+            filter: brightness(0.4);
+    }
+
+    section#manoranjannews .row .col-lg-8 .row .col-lg-5 .card-img-overlay p.card-title {
+    color: #fff;
+    font-weight: 800;
+    }
+
+    section#manoranjannews .row .col-lg-8 .row .col-lg-5 .card-img-overlay span.posted-on {
+    color: #ffd400;
+    font-weight: 700;
+    }
+
+    section#manoranjannews .row .col-lg-4 img.img-fluid.rounded-start {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+        object-fit: cover;
+    }
+
+    section#manoranjannews .row .col-lg-4 .card-title {
+        margin-bottom: 0.75rem;
+        font-weight: 600;
+    }
+    /* Portrait tablets and small desktops */
+    @media (min-width: 768px) and (max-width: 991px) {
+        section#manoranjannews .row .col-lg-8 .row .col-lg-7 img.d-block.w-100 {
+            height: 16rem;
+        }
+    }
+
+    /* Landscape phones and portrait tablets */
+    @media (max-width: 767px) {
+        section#manoranjannews {
+            margin-left: 3rem;
+            margin-right: 3rem;
+            margin-top: 3rem;
+        }
+        section#manoranjannews .row .col-lg-8 .row .col-lg-7 .card-img-overlay h3.card-title {
+            color: #fff;
+            font-weight: 500;
+        }
+        section#manoranjannews .row .col-lg-8 .row .col-lg-5 {
+            padding: 1rem 5rem;
+        }
+        section#manoranjannews .row .col-lg-8 .row .col-lg-5 .img-fluid.rounded-start {
+            height: 100%;
+        }
+        section#manoranjannews .row .col-lg-4 .row.sahitya {
+            padding: 1rem 5rem;
+            text-align: center;
+            font-weight: 600;
+        }
+    }
+    /* Portrait phones and smaller */
+    @media (max-width: 576px) {
+        section#manoranjannews {
+            margin-left: 3rem;
+            margin-right: 3rem;
+            margin-top: 3rem;
+        }
+        section#manoranjannews .row .col-lg-8 .row .col-lg-7 .card-img-overlay h3.card-title {
+            color: #fff;
+            font-weight: 500;
+            font-size: larger;
+        }
+        section#manoranjannews .row .col-lg-8 .row .col-lg-5 {
+            padding: 1rem 5rem;
+        }
+        section#manoranjannews .row .col-lg-8 .row .col-lg-5 .img-fluid.rounded-start {
+            height: 100%;
+        }
+        section#manoranjannews .row .col-lg-4 .row.sahitya {
+            padding: 1rem 5rem;
+            text-align: center;
+            font-weight: 600;
+        }
+    }
+
+    /* Portrait phones and smaller */
+    @media (max-width: 480px) {
+        section#manoranjannews {
+            margin-left: 1rem;
+            margin-right: 1rem;
+            margin-top: 1rem;
+        }
+        section#manoranjannews .row .col-lg-8 .row .col-lg-7 img.d-block.w-100 {
+            height: 16rem;
+        }
+        section#manoranjannews .row .col-lg-8 .row .col-lg-7 .card-img-overlay h3.card-title {
+            color: #fff;
+            font-weight: 500;
+            font-size: larger;
+        }
+        section#manoranjannews .row .col-lg-8 .row .col-lg-5 {
+            padding: 1rem 2rem;
+        }
+        section#manoranjannews .row .col-lg-8 .row .col-lg-5 .img-fluid.rounded-start {
+            height: 10rem;
+        }
+        section#manoranjannews .row .col-lg-8 .row .col-lg-5 .card-img-overlay p.card-title {
+            font-weight: 500;
+            font-size: smaller;
+        }
+        section#manoranjannews .row .col-lg-8 .row .col-lg-5 .card-img-overlay p.card-text {
+            font-size: small;
+        }
+        section#manoranjannews .row .col-lg-4 .row.sahitya {
+            padding: 1rem 2rem;
+            text-align: center;
+            font-weight: 500;
+        }
+    }
+    /* Manoranjannews News Css End */
+
+    /* Rajniti News Css Start   */
+
+    section#rajnitinews {
+        margin-left: 6rem;
+        margin-right: 6rem;
+        margin-top: 0;
+    }
+
+    section#rajnitinews .row .col-sm-12 .fcard-title {
+    padding: 10px 0;
+    color: #1e458a;
+    margin-bottom: 15px;
+    font-size: 24px;
+    position: relative;
+    font-weight: 600;
+    }
+
+    section#rajnitinews .row .col-sm-12 .fcard-title:before {
+    /* content: "";
+    position: absolute;
+    right: 0;
+    width: calc(90% - 140px);
+    background: #d4e2f0;
+    height: 10px;
+    display: block;
+    bottom: 25px; */
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 80px;
+    height: 5px;
+    background: #0C0E68;
+    z-index: 1;
+    }
+    section#rajnitinews .row .col-sm-12 .fcard-title:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: #ccc;
+    }
+
+    section#rajnitinews .row .col-sm-12.col-md-6.col-lg-4 img {
+        width: 100%;
+        object-fit: cover;
+        height: 292px;
+    }
+
+    section#rajnitinews .row .col-lg-4 img.card-img {
+    height: 285px;
+    -o-object-fit: cover;
+        object-fit: cover;
+    width: 100%;
+    }
+
+    section#rajnitinews .row .col-lg-4 img.img-fluid.rounded-start {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+        object-fit: cover;
+    }
+
+    section#rajnitinews .row .col-lg-4 .card.last.mb-3 {
+    border: none;
+    }
+
+    section#rajnitinews .row .col-lg-4 .card.last.mb-3 img {
+        width: 100%;
+        object-fit: cover;
+        height: 100%;
+    }
+
+    section#rajnitinews .row .col-lg-4 .post-heading.half-heading h4.post-title.part-title {
+    padding: 2rem 1em;
+    font-weight: 700;
+    }
+
+    section#rajnitinews .row .col-lg-4 .post-info {
+    padding: 20px 13px;
+    text-align: justify;
+    }
+
+    section#rajnitinews .row .col-lg-4 .col-md-8 .card-body {
+    padding: 1rem;
+    }
+
+    section#rajnitinews .row h5.card-title {
+        font-weight: 700;
+    }
+
+
+    /* Portrait tablets and small desktops */
+    @media (min-width: 768px) and (max-width: 991px) {
+    section#rajnitinews .row .col-lg-4 h4.post-title.part-title {
+        padding: 1rem 1em;
+        font-size: initial;
+    }
+    section#rajnitinews .row .col-lg-4 .post-info {
+        text-align: justify;
+        font-size: medium;
+    }
+
+    }
+
+    /* Portrait phones and smaller */
+    @media (max-width: 480px) {
+
+        section#rajnitinews {
+            margin-left: 1rem;
+            margin-right: 1rem;
+            margin-top: 2rem;
+        }
+        section#rajnitinews .row .col-lg-4 h4.post-title.part-title {
+        padding: 1rem 1em;
+        font-size: initial;
+        }
+        section#rajnitinews .row .col-lg-4 .post-info {
+        text-align: justify;
+        font-size: small;
+        }
+        section#rajnitinews .row .col-lg-4 img.card-img {
+        height: 285px;
+        -o-object-fit: cover;
+            object-fit: cover;
+        width: 100%;
+        }
+        section#rajnitinews .row .col-lg-4 img.img-fluid.rounded-start {
+        width: 100%;
+        height: 100%;
+        -o-object-fit: cover;
+            object-fit: cover;
+        }
+        section#rajnitinews .row .col-lg-4 .card.last.mb-3 {
+        border: none;
+        }
+        section#rajnitinews .row .col-lg-4 .card.last.mb-3 p.card-title {
+        font-weight: 400;
+        text-align: center;
+        }
+        section#rajnitinews .row .col-lg-4 .col-md-8 .card-body {
+        padding: 1rem;
+        }
+    }  
+
+    /* Rajniti News Css End   */
+
+    .weekly2-news-area .weekly2-wrapper .weekly2-single .weekly2-caption:hover {
+        margin-top: -3rem;
+        transition: 2s;
+    }
+
+/* End Css Index News Post   */
+
+/* Categoy Css */
+section.blog_area.section-padding .blog_item_img img.card-img.rounded-0 {
+    height: 16rem;
+    object-fit: cover;
+    width: 100%;
+}
+
+section.blog_area.section-padding .blog_left_sidebar {
+    flex: 0 0 30%;
+    flex-wrap: wrap;
+    background-color: #fff;
+    box-shadow: rgb(0 0 0 / 10%) 0 0 16px;
+    margin-bottom: var(--space-40);
+    width: 100%;
+}
+
+section.blog_area.section-padding h3.orangic {
+    color: #fff;
+    border-right: 8px solid #6c95c0;
+    border-left: 8px solid #669dd6;
+    background: #79b1eb;
+    padding: .5rem 2rem;
+    border-top-right-radius: 50px;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.section-padding {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+section#rajnitinews .row .col-lg-4 .post-heading.half-heading h4.post-title.part-title a:hover{
+    color:#fc4902;
+}
+.footer-pera a{
+    text-transform: none!important;
+}
+
+span.pwriter {
+    height: 45px;
+    width: 45px;
+    overflow: hidden;
+}
+
+span.pwriter img{
+    margin-top: -10px;
+    object-fit: cover;
+    height: 40px;
+    width: 40px;
+}
+
+
+.tarai-khabar-login{
+    display: block;
+    font-size: 18px;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    max-width: 30px;
+    border-radius: 50%;
+    border: solid 1px #fff;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    transition: all .3s ease;
+}
+.tarai-khabar-login a {
+    padding: 0px;
+    margin: -14px;
+}
+#st-1 {
+    position: inherit;
+    margin-top: -30px!important;
+}
